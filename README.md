@@ -1,7 +1,7 @@
 # Leaderboard
 
 > This project is designed to display the User and scores of a game getting them from an API and creating them there.
-> ![screenshot](./Capture.png)
+> ![screenshot](./app_screenshot.png)
 
 Additional description about the project and its features.
 
