@@ -2,7 +2,7 @@ import 'lodash';
 import './style.css';
 import listArr from './list.js';
 
-function buildtable(item) {
+const buildtable = (item) => {
   const table = document.getElementById('myTable');
   for (let i = 0; i < item.length; i += 1) {
     const row = `<tr> 
@@ -12,6 +12,6 @@ function buildtable(item) {
                   </tr>`;
     table.innerHTML += row;
   }
-}
+};
 
 buildtable(listArr);
