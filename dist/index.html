@@ -3,9 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wbpack Exercise</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Qahiri&display=swap"
+      rel="stylesheet"
+    />
+    <title>Leaderboard</title>
   <script defer src="main.js"></script></head>
   <body>
-    <h1>Hello webpack!</h1>
+    <h1 class="main-title">Leaderboard</h1>
+    <main>
+      <div class="lest-side">
+        <div class="left-title">
+          Recent scores
+          <span><button class="btn-refresh">refresh</button></span>
+        </div>
+        <div class="list"></div>
+      </div>
+      <div class="right-side">
+        <div class="right-title">your score</div>
+        <div>
+          <form action="#">
+            <input type="text" placeholder="Name" class="gameName" />
+            <input type="text" placeholder="Score" class="score" />
+            <input type="submit" id="sub" />
+          </form>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
