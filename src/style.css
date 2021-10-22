@@ -1,8 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 80px;
+}
+
 main {
+  margin-top: 20px;
   display: flex;
   width: 50%;
   margin-left: 25%;
   font-size: large;
+  font-family: 'Qahiri', sans-serif;
 }
 
 .lest-side {
@@ -16,8 +28,8 @@ main {
 
 .list {
   border: 2px solid black;
-  padding-left: 0.5rem;
-  width: 85%;
+  width: 75%;
+  margin-right: 40px;
 }
 
 form {
@@ -33,17 +45,19 @@ input {
 }
 
 .left-title {
-  padding-left: 1rem;
-  font-size: 28px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 5px;
 }
 
 .right-title {
   padding-left: 1rem;
   padding-bottom: 10px;
   font-size: 28px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-.btn {
+.btn-refresh {
   width: 7rem;
   font-size: 18px;
   margin-bottom: 10px;
@@ -53,7 +67,13 @@ input {
   margin-left: 25%;
 }
 
-tr:nth-child(even) {
+#scores {
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 4px;
+}
+
+#scores:nth-child(even) {
   background-color: #ddd;
   width: 100%;
 }

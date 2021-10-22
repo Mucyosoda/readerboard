@@ -5,8 +5,8 @@
 
 Additional description about the project and its features.
 
-- Scores are inputed
-- After submiting they are sent to the API
+- Scores are input added through input fields
+- After submitting they are sent to the API
 - When you refresh it updates the score board by getting back the API information
 
 ## Built With
@@ -18,6 +18,8 @@ Additional description about the project and its features.
 - WEBPACK
 - Barbel
 - JSON
+
+[Live Demo Link](https://mucyosoda.github.io/readerboard/dist/)
 
 ##periquities
 To get this project up and running, you should do the following;
