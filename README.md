@@ -19,6 +19,8 @@ Additional description about the project and its features.
 - Barbel
 - JSON
 
+[Live Demo Link](https://mucyosoda.github.io/readerboard/)
+
 ##periquities
 To get this project up and running, you should do the following;
 If you wish to run the project locally, please do the following:
